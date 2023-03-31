@@ -4,5 +4,6 @@ module repro_top (
 );
 
     assign io_out[0] = ~io_in[0];
+    assign io_out[7:1] = io_in[7:1];
 
 endmodule
